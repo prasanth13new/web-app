@@ -1,0 +1,68 @@
+.main{
+    background-color: blue;
+}
+
+.banner{
+    background-color: blue;
+    display: flex;
+}
+
+.banner_content{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+align-items: flex-start;
+align-content: flex-start;
+flex-wrap: wrap;
+margin-bottom: 20px;
+}
+
+.banner_sub{
+    color: palegoldenrod;
+    width: 600px;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.banner_main{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: capitalize;
+    width: 600px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.animation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.img{
+    object-fit: contain;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    color: aliceblue;
+}
+
+.trust{
+    display: flex;
+}
+
+.awards{
+    display: flex;
+    margin-left: 50px;
+}
