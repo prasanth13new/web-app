@@ -1,17 +1,17 @@
-.img1{
-    height: 500px;
-}
-
-.content1{
+.content_main{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 150px;
 }
 
 .content{
-    color: chocolate;
-    font-weight: bolder;
-    font-size: 30px;
-    text-transform: capitalize;
-    width: 600px;
+    font-style: normal;
+    font-weight: 440;
+    font-size: 42px;
+    line-height: 48px;
+    width: 530px;
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 1.27;
+    letter-spacing: -1px;
 }

@@ -24,7 +24,7 @@ function Header() {
                     <Button style={{ "text-transform": "capitalize" }} color="inherit" >Blog</Button>
                     <Button style={{ "text-transform": "capitalize" }} color="inherit" >Careers</Button>
 
-                    <Button style={{"margin-left": "auto", "text-transform": "capitalize" }} color="inherit" variant="outlined" size="small">Lets talk😄</Button>                   
+                    <Button style={{"margin-left": "auto", "text-transform": "capitalize", color: "blue", background: "white", borderRadius: "50px" }} color="inherit" variant="outlined" size="medium">Let's talk😄</Button>                   
                 </Toolbar>
             </AppBar>
         </div>

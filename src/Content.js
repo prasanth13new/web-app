@@ -3,11 +3,8 @@ import "./content.css"
 
 function Content() {
   return (
-    <div>
-        <img src="https://static.bluelabellabs.com/wp-content/uploads/2021/10/bll-small-logo.png" alt="" />
-    <div className='content1'>
-        <p className="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eos veritatis obcaecati quas adipisci magni molestias eius illum ipsum quae, aliquid quam accusamus sequi esse voluptatem voluptas ducimus, ex sint.</p>
-    </div>
+    <div className='content_main'>
+        <h2 className="content">Make bolder choices and uncover transformative change with user-validated digital products.</h2>
     </div>
   )
 }
