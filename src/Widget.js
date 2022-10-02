@@ -15,7 +15,7 @@ function Widget() {
     return (
         <div className='widget'>
             <div className="widget_animation">
-                <Lottie options={defaultOptions} height={700} width={500} />
+                <Lottie options={defaultOptions} height={500} width={500} />
             </div>
 
             <div className="widget_box">

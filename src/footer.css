@@ -1,0 +1,36 @@
+.footer{
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  
+  .fLists{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  
+  .fList{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .fListItem{
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: auto;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.fText{
+    margin-top: 5px;
+}
+
+.fImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}

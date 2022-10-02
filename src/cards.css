@@ -1,0 +1,38 @@
+.container {
+    background-color: #f5f7fa;
+    margin-top: 100px;
+}
+
+.container>h1 {
+    padding: 50px 50px 10px;
+    display: flex;
+    font-weight: 550;
+    font-size: 45px;
+}
+
+.card {
+    padding: 60px 35px 40px 35px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    /* width: 300px; */
+}
+
+.container_img {
+    padding: 30px 10px 30px 10px;
+}
+
+.card_container {
+    display: flex;
+}
+
+.container_content>h2 {
+    color: blue;
+    font-size: 18px;
+}
+
+.container_content>p {
+    color: rgb(125, 124, 124);
+    font-family: sans-serif;
+}
