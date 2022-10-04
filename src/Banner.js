@@ -3,8 +3,11 @@ import React from 'react'
 import "./banner.css"
 import Lottie from "react-lottie";
 import * as animationData from './myloader.json'
+import { useNavigate } from 'react-router-dom';
 
 function Banner() {
+  const navigate = useNavigate();
+  
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -24,7 +27,8 @@ function Banner() {
           style={{ "margin-left": "50px", "text-transform": "capitalize", color: "blue", background: "white", borderRadius: "50px" }} 
           color="inherit" 
           variant="outlined" 
-          size="large">Let's talk😄</Button>
+          size="large"
+          onClick={() => navigate("/letstalk")}>Let's talk😄</Button>
         </div>
 
         <div className="animation">
